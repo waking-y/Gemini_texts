@@ -26,16 +26,14 @@ Project File Date:  05/03/2026
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\EmbeddedSoftware\Keil5.43\ARM\ARM_Compiler_5.06u7\Bin'
-Rebuild target 'Target_1'
-assembling startup_stm32f40_41xxx.s...
-compiling system_stm32f4xx.c...
-compiling led.c...
+Build target 'Target_1'
 compiling main.c...
-compiling stm32f4xx_gpio.c...
-compiling stm32f4xx_rcc.c...
+..\app\main.c(5): warning:  #177-D: function "delay"  was declared but never referenced
+  static void delay(volatile uint32_t count)
+..\app\main.c: 1 warning, 0 errors
 linking...
-Program Size: Code=1032 RO-data=408 RW-data=0 ZI-data=1632  
-".\Objects\stm32f407.axf" - 0 Error(s), 0 Warning(s).
+Program Size: Code=1668 RO-data=424 RW-data=64 ZI-data=1632  
+".\Objects\stm32f407.axf" - 0 Error(s), 1 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -47,7 +45,7 @@ Package Vendor: Keil
 <h2>Collection of Component include folders:</h2>
 
 <h2>Collection of Component Files used:</h2>
-Build Time Elapsed:  00:00:01
+Build Time Elapsed:  00:00:00
 </pre>
 </body>
 </html>

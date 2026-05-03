@@ -1,4 +1,4 @@
-.\objects\stm32f4xx_syscfg.o: ..\firmware\driver\src\stm32f4xx_syscfg.c
+.\objects\stm32f4xx_syscfg.o: ..\..\..\STM32F407\firmware\driver\src\stm32f4xx_syscfg.c
 .\objects\stm32f4xx_syscfg.o: ..\firmware\driver\inc\stm32f4xx_syscfg.h
 .\objects\stm32f4xx_syscfg.o: ..\firmware\cmsis\device\stm32f4xx.h
 .\objects\stm32f4xx_syscfg.o: ..\firmware\cmsis\core\core_cm4.h

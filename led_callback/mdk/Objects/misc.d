@@ -1,4 +1,4 @@
-.\objects\misc.o: ..\firmware\driver\src\misc.c
+.\objects\misc.o: ..\..\..\STM32F407\firmware\driver\src\misc.c
 .\objects\misc.o: ..\firmware\driver\inc\misc.h
 .\objects\misc.o: ..\firmware\cmsis\device\stm32f4xx.h
 .\objects\misc.o: ..\firmware\cmsis\core\core_cm4.h

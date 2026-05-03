@@ -7,8 +7,9 @@
                 "d:\\EmbeddedSoftware\\Keil5.43\\Z-Projects\\testForGemini\\led_callback\\firmware\\cmsis\\device",
                 "d:\\EmbeddedSoftware\\Keil5.43\\Z-Projects\\testForGemini\\led_callback\\firmware\\driver\\inc",
                 "d:\\EmbeddedSoftware\\Keil5.43\\Z-Projects\\testForGemini\\led_callback\\driver\\led",
-                "D:\\EmbeddedSoftware\\Keil5.43\\ARM\\ARMCC\\include",
+                "d:\\EmbeddedSoftware\\Keil5.43\\Z-Projects\\testForGemini\\led_callback\\driver\\botton",
                 "d:\\EmbeddedSoftware\\Keil5.43\\Z-Projects\\testForGemini\\led_callback\\app",
+                "D:\\EmbeddedSoftware\\Keil5.43\\ARM\\ARMCC\\include",
                 "d:\\EmbeddedSoftware\\Keil5.43\\Z-Projects\\STM32F407\\firmware\\driver\\src"
             ],
             "defines": [

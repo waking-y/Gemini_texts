@@ -1,10 +1,15 @@
 #ifndef __LED_H_
 #define __LED_H_
 
-#include "stm32f4xx.h"
+#include <stdbool.h>
+#include <stdint.h>
 
-void LED_Init(void);
-void LED_On(uint16_t GPIO_Pin);
-void LED_Off(uint16_t GPIO_Pin);
+struct led_desc;
+typedef struct led_desc *led_desc_t;
+
+void led_init(led_desc_t led);
+void led_on(led_desc_t led);
+void led_off(led_desc_t led);
+void led_toggle(led_desc_t led);
 
 #endif /* __LED_H_ */

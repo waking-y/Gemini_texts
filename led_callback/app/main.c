@@ -1,31 +1,31 @@
-#include "stm32f4xx.h"
-#include "led.h"
+#include <stdbool.h>
+#include <stdint.h>
+#include "board.h"
 
-static void cpu_delay(void)
+static void delay(volatile uint32_t count)
 {
-    volatile uint32_t i = 0;
-    for (i = 0; i < 10000000; i++)
+    while (count--)
     {
-        __asm("nop");
+        __asm__("nop");
     }
+}
+
+void key_on_press(void *arg)
+{
+    led_toggle(arg);
 }
 
 int main(void)
 {
-    LED_Init();
-    
-    while(1)
+    board_lowlevel_init();
+    led_init(led9);
+    led_init(led10);
+    botton_init(key0);
+
+    botton_set_callback(key0, key_on_press, led10);
+
+    while (1)
     {
-		LED_On(GPIO_Pin_9);
-		LED_Off(GPIO_Pin_10);
-		
-		cpu_delay(); // Delay
-		
-		LED_Off(GPIO_Pin_9);
-		LED_On(GPIO_Pin_10);
-		
-		cpu_delay(); // Delay
-		
-	}
-	
+        ;
+    }
 }

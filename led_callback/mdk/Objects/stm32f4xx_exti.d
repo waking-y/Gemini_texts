@@ -1,4 +1,4 @@
-.\objects\stm32f4xx_exti.o: ..\firmware\driver\src\stm32f4xx_exti.c
+.\objects\stm32f4xx_exti.o: ..\..\..\STM32F407\firmware\driver\src\stm32f4xx_exti.c
 .\objects\stm32f4xx_exti.o: ..\firmware\driver\inc\stm32f4xx_exti.h
 .\objects\stm32f4xx_exti.o: ..\firmware\cmsis\device\stm32f4xx.h
 .\objects\stm32f4xx_exti.o: ..\firmware\cmsis\core\core_cm4.h

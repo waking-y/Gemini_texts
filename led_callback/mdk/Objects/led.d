@@ -1,8 +1,9 @@
 .\objects\led.o: ..\driver\led\led.c
-.\objects\led.o: ..\driver\led\led.h
+.\objects\led.o: D:\EmbeddedSoftware\Keil5.43\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdbool.h
+.\objects\led.o: D:\EmbeddedSoftware\Keil5.43\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+.\objects\led.o: ..\driver\led\led_desc.h
 .\objects\led.o: ..\firmware\cmsis\device\stm32f4xx.h
 .\objects\led.o: ..\firmware\cmsis\core\core_cm4.h
-.\objects\led.o: D:\EmbeddedSoftware\Keil5.43\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
 .\objects\led.o: ..\firmware\cmsis\core\core_cmInstr.h
 .\objects\led.o: ..\firmware\cmsis\core\core_cmFunc.h
 .\objects\led.o: ..\firmware\cmsis\core\core_cmSimd.h
@@ -35,3 +36,4 @@
 .\objects\led.o: ..\firmware\driver\inc\stm32f4xx_dac.h
 .\objects\led.o: ..\firmware\driver\inc\stm32f4xx_dcmi.h
 .\objects\led.o: ..\firmware\driver\inc\stm32f4xx_fsmc.h
+.\objects\led.o: ..\driver\led\led.h
